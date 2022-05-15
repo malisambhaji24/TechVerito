@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("sambhaji24/TechVerito")
+        app = docker.build("sambhaji24/techverito")
     }
 
     stage('Push image') {
